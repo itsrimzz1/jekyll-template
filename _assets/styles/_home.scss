@@ -1,106 +1,103 @@
 h1 {
-  font-family: Roboto;
-  text-align: center;
+    font-family: Roboto;
+    text-align: center;
 }
 
 .block {
-  background-color: $grey-lighter-color;
-  border: 1px $border-color solid;
-  box-shadow: 0 2px 5px $black-light-color;
-  text-align: justify;
+    background-color: $grey-lighter-color;
+    border: 1px $border-color solid;
+    box-shadow: 0 2px 5px $black-light-color;
+    text-align: justify;
 }
 
 .mom-header {
-  display: flex;
-  justify-content: space-between;
-  padding: 0 15px;
-
-  .header-text {
-    align-self: center;
-    font-size: 1.4em;
-    font-weight: 900;
-  }
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+    .header-text {
+        align-self: center;
+        font-size: 1.4em;
+        font-weight: 900;
+    }
 }
 
 .middle {
-  text-align: center;
+    text-align: center;
 }
 
-.main-title{
-  margin-top: 3em;
-  margin-bottom: .5em;
-  
+.main-title {
+    margin-top: 3em;
+    margin-bottom: .5em;
 }
 
-.sub-title{
-  margin-bottom: 3em;
-  
+.sub-title {
+    margin-bottom: 3em;
 }
 
-.horizontal-center{
-  display: flex;
-  justify-content: center;
+.horizontal-center {
+    display: flex;
+    justify-content: center;
 }
 
-section{
-  margin-bottom: 3em;
+section {
+    margin-bottom: 3em;
 }
 
-.space-above{
-  margin-top: 3em;
+.space-above {
+    margin-top: 3em;
 }
 
-.less-space-above{
-  margin-top: .5em;
+.less-space-above {
+    margin-top: .5em;
 }
 
-
-.section-3{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  background-image: url('/img/insights_bg.jpg');
+.section-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-image: url('/img/insights_bg.jpg');
 }
 
-.card{
-  margin: 1em;
-  background: inherit;
-}
-.item-center{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.card {
+    margin: 1em;
+    background: inherit;
 }
 
-.cards{
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
+.item-center {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.section-1{
-  background-image: url('/img/banner.jpg');
+.cards {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
 }
 
-.contain-background{
-  object-fit: contain;
+.section-1 {
+    background-image: url('/img/banner.jpg');
 }
 
-.section-4{
-  background-color: black; 
-  flex-direction: column;
+.contain-background {
+    object-fit: contain;
 }
 
-.section-5{
-  background-color: #212a38;
-   flex-direction: column;
+.section-4 {
+    background-color: black;
+    flex-direction: column;
 }
 
-.section-6{
-  background-color: #212a38;
-   flex-direction: row;
+.section-5 {
+    background-color: #212a38;
+    flex-direction: column;
 }
 
-.white-text{
-  color: white;
+.section-6 {
+    background-color: #212a38;
+    flex-direction: row;
+}
+
+.white-text {
+    color: white;
 }
