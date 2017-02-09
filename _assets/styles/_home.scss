@@ -29,10 +29,17 @@ h1 {
 .main-title{
   margin-top: 3em;
   margin-bottom: .5em;
+  
 }
 
 .sub-title{
   margin-bottom: 3em;
+  
+}
+
+.horizontal-center{
+  display: flex;
+  justify-content: center;
 }
 
 section{
@@ -63,4 +70,37 @@ section{
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.cards{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.section-1{
+  background-image: url('/img/banner.jpg');
+}
+
+.contain-background{
+  object-fit: contain;
+}
+
+.section-4{
+  background-color: black; 
+  flex-direction: column;
+}
+
+.section-5{
+  background-color: #212a38;
+   flex-direction: column;
+}
+
+.section-6{
+  background-color: #212a38;
+   flex-direction: row;
+}
+
+.white-text{
+  color: white;
 }

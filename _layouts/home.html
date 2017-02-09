@@ -4,159 +4,139 @@
 ---
 <!DOCTYPE html>
 <html lang="en-gb">
-{% include head.html title=page.title %}
-
-<body>
-  {% include header.html %}
-  <div class="container-fluid" style="background-image: url('/img/banner.jpg');">
-  <div class="container" >
-    <section class="middle" >
-      <div class="row">
-        <div class="col-md-12">
-      <h1 class="display-5 main-title">{{ page.headline }}</h1></div>
+  {% include head.html title=page.title %}
+  <body>
+    <div class="container-fluid section-1" >
+      {% include header.html %}
+      <div class="container" >
+        <section class="middle" >
+          <div class="main-title horizontal-center">
+            <h1 class="display-5 main-title">{{ page.headline }}</h1>
+          </div>
+          <div class="sub-title horizontal-center">
+            <h4 class="display-8">{{ page.second-headline }}</h4>
+          </div>
+          <div class="horizontal-center">
+            <button>Take 30 days freetrial</button>
+          </div>
+          <div class="horizontal-center">
+            <h2>Excellent for recurring corporate</h2>
+          </div>
+          <div class="horizontal-center">
+            <img src="/img/mock_01.png" width="1151px" height="429px" class="contain-background">
+          </div>
+        </section>
       </div>
-      <div class="row">
-        <div class="col-md-12">
-      <h4 class="display-8 sub-title">{{ page.second-headline }}</h4>
+    </div>
+    <div class="container">
+      <section class="middle">
+        <div class="main-title horizontal-center">
+          <h2 class="display-5 space-above">MOM</h2>
+        </div>
+        <div class="sub-title horizontal-center">
+          <h4 class="display-8">Tag Line</h4>
+        </div>
+        <div class="space-above item-center">
+          <div>
+            <h3>Collaborative Notes</h3>
+            <p>There isnt any UI</p>
+            <button>Get Started</button>
+          </div>
+          <div>
+            <img src="/img/mock_two.png" width="557px" height="400px" class="contain-background">
+          </div>
+        </div>
+        <div class="space-above item-center">
+          <div>
+            <img src="/img/mock_three.png" width="557px" height="400px" class="contain-background">
+          </div>
+          <div>
+            <h3>Simple Just Start typing.</h3>
+            <p>No complicated forms.</p>
+            <button>Get Started</button>
+          </div>
+        </div>
+        <div class="space-above cards">
+          <div>
+            <span><img></span>
+            <h3>Templates</h3>
+            <p> Lorem impsum</p>
+          </div>
+          <div>
+            <span><img></span>
+            <h3>Widgets</h3>
+            <p> Lorem impsum</p>
+          </div>
+          <div>
+            <span><img></span>
+            <h3>Actions</h3>
+            <p> Lorem impsum</p>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="container-fluid">
+      <section class="section-3">
+        <div class="card">
+          <h2>2000+</h2>
+          <h4>Meeting Minute</h4>
+        </div>
+        <div class="card">
+          <h2>100+</h2>
+          <h4>Decision Made</h4>
+        </div>
+        <div class="card">
+          <h2>80+</h2>
+          <h4>Active Teams</h4>
+        </div>
+        <div class="card">
+          <h2>800+</h2>
+          <h4>Action Items</h4>
+        </div>
+      </section>
+    </div>
+    <div class="container-fluid item-center section-4">
+      <div class="space-above">
+        <h2>Our Users Say</h2>
+      </div>
+      <img src="/img/dp.png" class="less-space-above">
+      <h3 class="less-space-above">Himanshu</h3>
+      <p class="less-space-above">hfgweufgweufeg</p>
+      <hr class="space-above">
+      <p class="less-space-above">jdsh</p>
+      <button class="space-above">Try 30 day trial</button>
+      <p class="less-space-above"> Excellent for recurring corporate Meeting</p>
+    </div>
+    <div class="container-fluid item-center section-4">
+      <div class="space-above">
+        <h2>Pricing and plan</h2>
+      </div>
+      <h3 class="less-space-above">No credit card required</h3>
+      <div style="flex-direction: row">
+        <div>
+          aa
+        </div>
+        <div>
+          bb
         </div>
       </div>
-    <div class="row">
-      <div class="col-md-12"><button>Take 30 days freetrial</button></div>
-  </div>
-  <div class="row">
-      <div class="col-md-12"><h2>Excellent for recurring corporate</h2></div>
-  </div>
-  <div class="row">
-    <div class="col-md-12"><img src="/img/mock_01.png" width="1151px" height="429px" style="object-fit: contain"></div>
-  </div>
-</section>
-</div>
-  </div>
-
-<div class="container">
-<section class="middle">
-
-<div class="row">
-        <div class="col-md-12">
-      <h2 class="display-5 main-title">MOM</h2></div>
+    </div>
+    <div class="container-fluid item-center section-5">
+      <div class="space-above">
+        <h2 class="white-text">Get in Touch</h2>
       </div>
-      <div class="row">
-        <div class="col-md-12">
-      <h4 class="display-8 sub-title">Tag Line</h4>
-        </div>
-      </div>
-
-      <div class="row space-above item-center">
-      <div class="col-md-5">
-        <h3>Collaborative Notes</h3>
-        <p>There isnt any UI</p>
-        <button>Get Started</button>
-
-      </div>
-
-      <div class="col-md-7">
-        <img src="/img/mock_two.png" width="557px" height="400px" style = "object-fit: contain;">
-      </div>
-
-      </div>
-
-      <div class="row space-above item-center">
-        
-      <div class="col-md-7">
-        <img src="/img/mock_three.png"width="557px" height="400px" style = "object-fit: contain;">
-      </div>
-
-      <div class="col-md-5">
-        <h3>Simple Just Start typing.</h3>
-        <p>No complicated forms.</p>
-        <button>Get Started</button>
-
-      </div>
-
-      </div>
-<div class="row space-above">
-<div class="col-md-4">
-  <span><img></span><h3>Templates</h3>
-  <p> Lorem impsum</p>
-</div>
-<div class="col-md-4">
-  <span><img></span><h3>Widgets</h3>
-  <p> Lorem impsum</p>
-</div>
-<div class="col-md-4">
-  <span><img></span><h3>Actions</h3>
-  <p> Lorem impsum</p>
-</div>
-</div>
-
-</section>
-
-</div>  
-
-<div class="container-fluid">
-<section class="section-3">
-  <div class="card">
-    <h2>2000+</h2>
-    <h4>Meeting Minute</h4>
-  </div>
-
-  <div class="card">
-    <h2>100+</h2>
-    <h4>Decision Made</h4>
-  </div>
-
-  <div class="card">
-    <h2>80+</h2>
-    <h4>Active Teams</h4>
-  </div>
-
-  <div class="card">
-    <h2>800+</h2>
-    <h4>Action Items</h4>
-  </div>
-</section>
-</div>
-
-<div class="container-fluid item-center" style="background-color: black; flex-direction: column;">
-<div class="space-above"><h2>Our Users Say</h2></div>
-<img src="/img/dp.png" class="less-space-above">
-<h3 class="less-space-above">Himanshu</h3>
-<p class="less-space-above">hfgweufgweufeg</p>
-<hr class="space-above">
-<p class="less-space-above">jdsh</p>
-<button class="space-above">Try 30 day trial</button>
-<p class="less-space-above"> Excellent for recurring corporate Meeting</p>
-</div>
-
-
-<div class="container-fluid item-center" style="background-color: black; flex-direction: column;">
-<div class="space-above"><h2>Pricing and plan</h2></div>
-
-<h3 class="less-space-above">No credit card required</h3>
-<div style="flex-direction: row">
-  <div>
-    aa
-  </div>
-  <div>
-    bb
-  </div>
-</div>
-</div>
-<div class="container-fluid item-center" style="background-color: #212a38; flex-direction: column;">
-<div class="space-above"><h2 style="color: white">Get in Touch</h2></div>
-<input type="text" placeholder="Enter Your Name" class="less-space-above">
-<input type="text" placeholder="Enter Your Email" class="less-space-above">
-<input type="text" placeholder="Enter Your Message" class="less-space-above">
-<input type="submit"class="less-space-above">
-</div>
-<div class="container-fluid item-center" style="background-color: #212a38; flex-direction: row;">
-  <div class="space-above"></div>
-<img src="/img/social">
-<img src="/img/social">
-<img src="/img/social">
-<img src="/img/social">
-</div>
-
-  {% include footer.html %}
-</body>
+      <input type="text" placeholder="Enter Your Name" class="less-space-above">
+      <input type="text" placeholder="Enter Your Email" class="less-space-above">
+      <input type="text" placeholder="Enter Your Message" class="less-space-above">
+      <input type="submit"class="less-space-above">
+    </div>
+    <div class="container-fluid item-center">
+      <div class="space-above"></div>
+      <img src="/img/social">
+      <img src="/img/social">
+      <img src="/img/social">
+      <img src="/img/social">
+    </div>
+    {% include footer.html %}
+  </body>
 </html>
