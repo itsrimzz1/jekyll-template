@@ -25,3 +25,42 @@ h1 {
 .middle {
   text-align: center;
 }
+
+.main-title{
+  margin-top: 3em;
+  margin-bottom: .5em;
+}
+
+.sub-title{
+  margin-bottom: 3em;
+}
+
+section{
+  margin-bottom: 3em;
+}
+
+.space-above{
+  margin-top: 3em;
+}
+
+.less-space-above{
+  margin-top: .5em;
+}
+
+
+.section-3{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-image: url('/img/insights_bg.jpg');
+}
+
+.card{
+  margin: 1em;
+  background: inherit;
+}
+.item-center{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
