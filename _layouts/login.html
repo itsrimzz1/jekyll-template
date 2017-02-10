@@ -1,0 +1,27 @@
+--- 
+# 3 dashes above and below are needed 
+# so that jekyll can process the files 
+---
+<!DOCTYPE html>
+<html lang="en-gb">
+  {% include head.html title=page.title %}
+  <body>
+    <div class="container-fluid parent-container">
+      <div class="center-box space-above">
+        <img src='/img/logo_02.png' class="logo">
+        <h1>Login to MoM</h1>
+        <p class="less-space-above">Email id</p>
+        <input type="email" placeholder="eg: example@gmail.com">
+        <p class="less-space-above">Password</p>
+        <input type="password" placeholder="Enter Password">
+        <button class="less-space-above">Login</button>
+        <p>__________________or____________________</p>
+        <button class="space-above">Sign in with Google</button>
+        <div class="space-above flex-row">
+          <p>Don't have an account yet ?</p>
+          <button>Get Started</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

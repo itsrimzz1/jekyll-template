@@ -1,0 +1,25 @@
+.parent-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f7f8;
+}
+
+.center-box {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 3em;
+}
+
+.logo{
+  width: "155px";
+  height: "148px";
+}
+
+.flex-row{
+  display: flex;
+  flex-direction: row;
+}
