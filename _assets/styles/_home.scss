@@ -13,7 +13,7 @@ h1 {
 .mom-header {
     display: flex;
     justify-content: space-between;
-    padding: 0 15px;
+    padding: 15px 15px;
     .header-text {
         align-self: center;
         font-size: 1.4em;
@@ -144,4 +144,76 @@ section {
       background-image: url('/img/insights_bg.jpg');
       flex-direction: column;
     }
+
+    .mom-header {
+    display: flex;
+    padding-top: 15px;
+    padding-right: 0px;
+    margin-right: 0px;
+    .header-text {
+        align-self: center;
+        font-size: 1.4em;
+        font-weight: 900;
+    }
+
+    .card-row {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .footer-divs {
+      width: 100%;
+    }
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+  color: white;
+}
+
+a{
+  color: white;
+}
+
+.oval-button {
+  border-radius: 19.9px;
+  border: solid 1.1px #ffffff;
+  background: transparent;
+  color: white;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #212a37;
+  color: white
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+
+.footer-divs {
+  width: 50%;
+}
+
+
+.card-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
