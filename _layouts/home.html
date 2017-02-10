@@ -7,17 +7,18 @@
   {% include head.html title=page.title %}
   <body>
     <div class="container-fluid section-1" >
+      <div class="container container-padding-9">
       {% include header.html %}
       <div class="container" >
         <section class="middle" >
           <div class="main-title horizontal-center">
-            <h1 class="display-5 main-title">{{ page.headline }}</h1>
+            <h1 class="display-5 main-title main-title-font">{{ page.headline }}</h1>
           </div>
           <div class="sub-title horizontal-center">
-            <h4 class="display-8">{{ page.second-headline }}</h4>
+            <h4 class="display-8 sub-title-font">{{ page.second-headline }}</h4>
           </div>
           <div class="horizontal-center">
-            <button>Take 30 days freetrial</button>
+            <button class="button-trial">Take 30 days freetrial</button>
           </div>
           <div class="horizontal-center">
             <h2>Excellent for recurring corporate</h2>
@@ -27,6 +28,7 @@
           </div>
         </section>
       </div>
+    </div>
     </div>
     <div class="container">
       <section class="middle">
