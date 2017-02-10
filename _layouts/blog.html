@@ -1,0 +1,35 @@
+--- 
+# 3 dashes above and below are needed 
+# so that jekyll can process the files 
+---
+<!DOCTYPE html>
+<html lang="en-gb">
+  {% include head.html title=page.title %}
+  <body>
+    <div class="container-fluid section-1" >
+      <section class="middle" >
+        <img src="/img/logo_02.png" class="logo-center main-title space-above">
+        <div class="main-title horizontal-center">
+          <h1 class="display-5">{{ page.headline }}</h1>
+        </div>
+        <div class="sub-title horizontal-center">
+          <h4 class="display-8">{{ page.second-headline }}</h4>
+        </div>
+      </section>
+    </div>
+    <div class="container">
+      <section class="middle">
+        <div class="horizontal-center">
+          <h2 class="display-5 less-space-above">MOM</h2>
+        </div>
+      </section>
+    </div>
+    <div class="container-fluid item-center section-6">
+      <div class="space-above"></div>
+      <img src="/img/social">
+      <img src="/img/social">
+      <img src="/img/social">
+      <img src="/img/social">
+    </div>
+  </body>
+</html>
