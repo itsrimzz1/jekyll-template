@@ -8,27 +8,45 @@
   <body>
     <div class="container-fluid section-1" >
       <div class="container container-padding-9">
-      {% include header.html %}
-      <div class="container" >
-        <section class="middle" >
-          <div class="main-title horizontal-center">
-            <h1 class="display-5 main-title main-title-font">{{ page.headline }}</h1>
-          </div>
-          <div class="sub-title horizontal-center">
-            <h4 class="display-8 sub-title-font">{{ page.second-headline }}</h4>
-          </div>
-          <div class="horizontal-center">
-            <button class="button-trial">Take 30 days freetrial</button>
-          </div>
-          <div class="horizontal-center">
-            <h2>Excellent for recurring corporate</h2>
-          </div>
-          <div class="horizontal-center">
-            <img src="/img/mock_01.png" class="contain-background mock_01">
-          </div>
-        </section>
+        {% include header.html %}
       </div>
-    </div>
+      <div class="menu">
+        <ul>
+          <a href="#">
+            <li>Pricing</li>
+          </a>
+          <a href="/blog/">
+            <li>Blog</li>
+          </a>
+          <a href="/login/">
+            <li>Login</li>
+          </a>
+          <a href="/signup/">
+            <li>Sign up for free</li>
+          </a>
+        </ul>
+      </div>
+      <div class="container container-padding-9">
+        <div class="container" >
+          <section class="middle" >
+            <div class="main-title horizontal-center">
+              <h1 class="display-5 main-title-font">{{ page.headline }}</h1>
+            </div>
+            <div class="sub-title horizontal-center">
+              <h4 class="display-8 sub-title-font">{{ page.second-headline }}</h4>
+            </div>
+            <div class="horizontal-center">
+              <button class="button-trial">Take 30 days freetrial</button>
+            </div>
+            <div class="horizontal-center">
+              <h2>Excellent for recurring corporate meeting minutes.</h2>
+            </div>
+            <div class="horizontal-center">
+              <img src="/img/mock_01.png" class="contain-background mock_01">
+            </div>
+          </section>
+        </div>
+      </div>
     </div>
     <div class="container">
       <section class="middle">
@@ -80,24 +98,24 @@
     <div class="container-fluid">
       <section class="section-3">
         <div class="card-row">
-        <div class="card">
-          <h2>2000+</h2>
-          <h4>Meeting Minute</h4>
-        </div>
-        <div class="card">
-          <h2>100+</h2>
-          <h4>Decision Made</h4>
-        </div>
+          <div class="card">
+            <h2>2000+</h2>
+            <h4>Meeting Minute</h4>
+          </div>
+          <div class="card">
+            <h2>100+</h2>
+            <h4>Decision Made</h4>
+          </div>
         </div>
         <div class="card-row">
-        <div class="card">
-          <h2>80+</h2>
-          <h4>Active Teams</h4>
-        </div>
-        <div class="card">
-          <h2>800+</h2>
-          <h4>Action Items</h4>
-        </div>
+          <div class="card">
+            <h2>80+</h2>
+            <h4>Active Teams</h4>
+          </div>
+          <div class="card">
+            <h2>800+</h2>
+            <h4>Action Items</h4>
+          </div>
         </div>
       </section>
     </div>
