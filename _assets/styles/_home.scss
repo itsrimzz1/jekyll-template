@@ -315,11 +315,65 @@ section {
     padding-left: 1.6em;
     padding-right: 1.6em;
     }
+    
+    .colored-dot {
+      color: #fd2e72;
+      font-size: 40px;
+      margin-top: -.5em;
+    }
+
+    .sub-title {
+      font-size: x-large;
+      margin-top: 0px;
+    }
+
+    .cards {
+      display: flex;
+      justify-content: space-around;
+      flex-direction: row;
+      margin-top: 1em;
+      margin-bottom: 1em;
+
+      .card-4 {
+        border-radius: 9px;
+        background-color: #3e4a5c;
+        background-color: var(--slate);
+      }
+    }
 }
 
 .section-5 {
     background-color: #212a38;
     flex-direction: column;
+
+    input {
+      background-color: #212a38;
+      border: 0;
+      border-bottom: 1px solid black;
+      text-align: center;
+      color: rgba(255, 255, 255, 0.2);
+      margin-top: 2em;
+    }
+    
+    button {
+        font-size: 19px;
+        font-weight: 300;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ffffff;
+        border-radius: 30.2px;
+        background-color: #1ea2ff;
+        border: 0;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        padding-left: 5em;
+        padding-right: 5em;
+        margin-top: 2em;
+        margin-bottom: 3em;
+    }
 }
 
 .section-6 {
@@ -664,4 +718,13 @@ a {
   width:auto; 
   height:35px; 
   margin: -5px;
+}
+
+.between-sections {
+  height: 1px;
+  border: 0;
+  border-top: .8px solid #ffffff;
+  width: 50%;
+  padding: 0;
+  margin: 0;
 }
