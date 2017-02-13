@@ -57,11 +57,30 @@ section {
     margin-top: .5em;
 }
 
+.background-section-3 {
+  background-image: url(/img/insights_bg.jpg);
+  background-size: cover;
+}
+
 .section-3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-image: url('/img/insights_bg.jpg');
+    align-items: center;
+    margin-bottom: 0;
+    padding-bottom: 2em;
+    padding-top: 2em;
+
+    h3 {
+      font-size: 40px;
+      font-weight: 100;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: left;
+      color: #ffffff;
+    }
 }
 
 .card {
@@ -159,6 +178,10 @@ section {
       margin: .5em;
       font-weight: 100;
     }
+
+    hr {
+      display: none;
+    }
 }
 
 .section-1 {
@@ -225,7 +248,7 @@ section {
 }
 
 .section-4 {
-    background-color: black;
+    background-color: #273140;
     flex-direction: column;
 }
 
@@ -282,6 +305,14 @@ section {
         display: flex;
         justify-content: space-around;
         flex-direction: column;
+        hr {
+           display: block;
+           height: 1px;
+           border: 0;
+           border-top: 1px solid #656565;
+           width: 90%;
+           margin-bottom:2em;
+        }
     }
 
     .section-3 {
@@ -398,6 +429,20 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    width: 50%;
+    @media only screen and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+        width: 100%;
+    }
+
+    .extra-padding {
+      padding : 1em;
+    }
+
+    h4 {
+      color : white;
+      font-weight: 100;
+      font-size: 1.2rem;
+    }
 }
 
 .hamburger {
