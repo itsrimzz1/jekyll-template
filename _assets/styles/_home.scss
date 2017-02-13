@@ -135,6 +135,30 @@ section {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
+    margin-top: 12em;
+    margin-bottom: 10em;
+
+    img {
+      width: auto;
+      height: 70px;
+    }
+
+    span {
+      display: flex;
+      align-items: center;
+    }
+
+    p {
+      text-align: left;
+      margin-top: 1em;
+      padding: .5em;
+      font-weight: 100;
+    }
+
+    h3 {
+      margin: .5em;
+      font-weight: 100;
+    }
 }
 
 .section-1 {
@@ -230,6 +254,12 @@ section {
     width: 100%;
     height: auto;
     margin-left: 10%;
+
+    @media only screen and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
 }
 
 @media only screen and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
@@ -328,7 +358,21 @@ a {
     justify-content: center;
     flex-direction: column;
     background-color: #212a37;
-    color: white
+    color: white;
+
+    .cards {
+      display: flex;
+      justify-content: space-around;
+      flex-direction: row;
+      margin-bottom: 0;
+      p {
+      padding: 0;
+      margin-top: 0;
+      }
+      @media only screen and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+        flex-direction: column;
+      }
+    }
 }
 
 .footer-logo {
