@@ -23,3 +23,16 @@
   display: flex;
   flex-direction: row;
 }
+
+.login-header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  hr {
+    height: 1px;
+    border: 0;
+    border-top: 1px solid black;
+    width: 70%;
+    margin-bottom:2em;
+  }
+}
